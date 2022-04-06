@@ -30,8 +30,8 @@ setup(
     },
     license = 'Apache v2.0 License',
     install_requires=[
-    'requests>=2.18.4',
-    'requests_cache>=0.4.13'
+    'requests>=2.27.1',
+    'requests_cache>=0.9.3'
     ],
     keywords = ['cryptocurrency', 'API', 'coinmarketcap','BTC', 'Bitcoin', 'LTC', 'Litecoin', 'XRP', 'Ripple', 'ETH', 'Ethereum '],
     classifiers=[
@@ -39,7 +39,6 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.6',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
